@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,18 +7,68 @@
     <title>Document</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <link href="./assets/css/style.css" rel="stylesheet"/>
+
 </head>
 <body>
+
+    <div class='container'>
+        <div class="row">
+            <div id="title-instructions" class="text-center col-sm-8 col-sm-offset-2">
+                <h1 id="title-text">
+                    This is TRIVIA TIME.
+                </h1>
+                <h3 id="instructions-text">
+                    <i> 60-second timer begins onces the first choice is selected. Answer as many questions as possible. All questions are true/false.</i>
+                </h3>
+
+            </div>
+
+        </div>
+        <div class="row" >
+            <div id="question-timer" class="text-center col-sm-8 col-sm-offset-2">
+                <h2 id="question-text">
+                    This is the where the question goes.
+                </h2>
+
+                <h4 id="timer-text">
+                    TIMER
+                </h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-offset-3 radio">
+                <label><input type="radio" data-choice="true" name="optradio">THAT IS TRUE.</label>
+            </div>
+            </div>
+
+        <div class="row">
+            <div class="col-xs-6 col-sm-offset-3 radio">
+                <label><input type="radio" data-choice="false" name="optradio">THAT IS FALSE.</label>
+            </div>
+            </div>
+
+        
+
+</div>
+
+
+
+
 
 
      <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+     </script>
 
-    <script>
-    
-    
+    <script
+            src="./assets/javascript/app.js">
+
     </script>
     
 </body>

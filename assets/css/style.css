@@ -1,0 +1,52 @@
+.radio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+
+#title-instructions {
+    height: 240px;
+    background-color: slategray;
+}
+
+#question-timer {
+
+    font-weight: bold;
+    padding-top: 10px;
+    background-color: lightgray;
+    height: 190px;
+}
+
+
+
+#title-text {
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: slategrey;
+
+}
+
+#instructions-text {
+
+
+
+}
+
+
+#question-text {
+
+
+}
+
+
+#timer-text{
+
+    font-weight: bold;
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+    color: red;
+}
