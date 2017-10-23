@@ -36,9 +36,16 @@
 }
 
 
+
 #question-text {
 
 
+
+}
+
+#spacer {
+    background: black;
+    height:20px;
 }
 
 
@@ -49,4 +56,10 @@
     right: 20px;
     bottom: 20px;
     color: red;
+}
+
+label {
+
+    font-size:20px;
+    margin-
 }
