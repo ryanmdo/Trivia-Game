@@ -11,10 +11,6 @@ var bank = [
         answer: "false"
     },
 
-    {
-        question: "When writing a range of dates, such as 1970 to 2017, the hyphen is the technically correct choice, as opposed to the en dash and em dash",
-        answer: "false"
-    },
 
     {
         question: "When writing a range of dates, such as 1970 to 2017, the hyphen(-) is the technically correct choice, as opposed to the en dash(&ndash) and em dash(&mdash)",
